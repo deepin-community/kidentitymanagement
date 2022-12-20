@@ -1,0 +1,419 @@
+kidentitymanagement (21.08.1-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Fri, 11 Nov 2022 17:58:24 +0800
+
+kidentitymanagement (21.08.1-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.08.1).
+  * Bump Standards-Version to 4.6.0, no change required.
+
+ -- Norbert Preining <norbert@preining.info>  Sat, 11 Sep 2021 07:21:31 +0900
+
+kidentitymanagement (21.08.0-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.08.0).
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 16 Aug 2021 16:13:22 +0900
+
+kidentitymanagement (21.04.3-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.3).
+
+ -- Norbert Preining <norbert@preining.info>  Fri, 09 Jul 2021 10:34:57 +0900
+
+kidentitymanagement (21.04.1-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.1).
+
+ -- Norbert Preining <norbert@preining.info>  Fri, 14 May 2021 06:10:40 +0900
+
+kidentitymanagement (21.04.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.0).
+  * Borrow minimal upstream signing key from k3b.
+  * Drop Kubuntu from maintainer name.
+  * Removed Maximiliano Curia from the uploaders, thanks for your work
+    on the package!
+  * Added myself to the uploaders.
+
+ -- Norbert Preining <norbert@preining.info>  Thu, 13 May 2021 09:46:19 +0900
+
+kidentitymanagement (20.08.3-1) unstable; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (20.08.3).
+  * Update build-deps and deps with the info from cmake.
+  * Bump Standards-Version to 4.5.1 (No changes needed).
+  * Minimize the upstream GPG signing key.
+
+ -- Sandro Knauß <hefee@debian.org>  Wed, 16 Dec 2020 01:52:14 +0100
+
+kidentitymanagement (20.08.2-2) unstable; urgency=medium
+
+  * Team upload to unstable.
+
+ -- Sandro Knauß <hefee@debian.org>  Tue, 20 Oct 2020 00:08:03 +0200
+
+kidentitymanagement (20.08.2-1) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (20.08.2).
+  * Update build-deps and deps with the info from cmake.
+  * Update Homepage link to point to new invent.kde.org
+  * Update field Source in debian/copyright to invent.kde.org move.
+  * Update repository related entries to metadata file.
+  * Add Bug-* entries to metadata file.
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 16 Oct 2020 00:52:25 +0200
+
+kidentitymanagement (20.04.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Explicitly add the gettext build dependency.
+  * Switch from dhmk to the dh sequencer:
+    - invoke the dh sequencer using the kf5 addon
+    - call the right debhelper command instead of $(overridden_command)
+  * Unregister the old /etc/xdg/kidentitymanagement.categories, and
+    /etc/xdg/kidentitymanagement.renamecategories conffiles.
+  * Update lintian overrides.
+  * Drop patch set_icontheme.diff, as it seems not needed anymore
+    (signaturetest still passes).
+
+ -- Pino Toscano <pino@debian.org>  Sat, 22 Aug 2020 10:09:38 +0200
+
+kidentitymanagement (20.04.1-1) unstable; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (20.04.1).
+  * Update build-deps and deps with the info from cmake.
+  * Remove not needed Build-Depends.
+  * Remove not needed Depends.
+
+ -- Sandro Knauß <hefee@debian.org>  Tue, 26 May 2020 23:59:43 +0200
+
+kidentitymanagement (20.04.0-1) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * Update watch file to the new release-service location.
+  * Bump compat level to 13.
+  * Bump Standards-Version to 4.5.0 (No changes needed).
+  * Get rid of debug-symbol-migration package.
+  * Add Rules-Requires-Root field to control.
+  * New upstream release (19.12.3).
+  * Update build-deps and deps with the info from cmake.
+  * New upstream release (20.04.0).
+  * Update patch hunks.
+  * Enable hardening all.
+  * Wrap long lines in changelog entries: 16.04.1-1.
+  * Set field Upstream-Contact in debian/copyright.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+
+ -- Sandro Knauß <hefee@debian.org>  Wed, 13 May 2020 12:22:03 +0200
+
+kidentitymanagement (19.08.3-1) unstable; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (19.08.3).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Sandro Knauß <hefee@debian.org>  Sat, 30 Nov 2019 22:54:50 +0100
+
+kidentitymanagement (19.08.2-1) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * Bump Standards-Version to 4.4.1 (No changes needed).
+  * New upstream release (19.08.2).
+  * Update build-deps and deps with the info from cmake.
+  * Update install files for new upstream release.
+  * Remove breaks against kde-l10n packages.
+  * Update libkf5identitymanagement-dev dependencies.
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 08 Nov 2019 10:39:29 +0100
+
+kidentitymanagement (18.08.3-4) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Sandro Knauß <hefee@debian.org>  Thu, 14 Nov 2019 23:49:07 +0100
+
+kidentitymanagement (18.08.3-3) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * Bump Standards-Version to 4.4.0 (No changes needed).
+  * Bump compat level to 12.
+  * Add myself to Uploaders.
+  * Delete not needed Breaks/Confilcts.
+  * Use virtual packages to bundle KDEPIM.
+  * Enforce depdendencies between KDEPIM packages to enable bundling.
+
+ -- Sandro Knauß <hefee@debian.org>  Sat, 05 Oct 2019 00:04:14 +0200
+
+kidentitymanagement (18.08.3-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Update symbols from buildds for 18.08.3
+
+ -- Sandro Knauß <hefee@debian.org>  Thu, 14 Feb 2019 21:08:06 +0100
+
+kidentitymanagement (18.08.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (18.08.3).
+  * Update build-deps and deps with the info from cmake.
+  * Bump Standards-Version to 4.3.0 (No changes needed).
+  * Removed acc autopkgtest.
+  * Removed testsuite autopkgtest.
+
+ -- Sandro Knauß <hefee@debian.org>  Mon, 04 Feb 2019 15:59:16 +0100
+
+kidentitymanagement (18.08.1-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Bump Standards-Version to 4.2.1 (No changes needed).
+  * New upstream release (18.08.1).
+  * Follow stable releases in KDE again.
+  * Update build-deps and deps with the info from cmake.
+
+ -- Sandro Knauß <hefee@debian.org>  Tue, 02 Oct 2018 23:17:42 +0200
+
+kidentitymanagement (18.07.90-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Update watch file to match unstable releases, too.
+  * New upstream release (18.07.90).
+  * Bump Standards-Version to 4.2.0 (No changes needed).
+  * Update build-deps and deps with the info from cmake.
+  * Update copyright file for new upstream.
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 17 Aug 2018 18:17:24 +0200
+
+kidentitymanagement (17.12.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (17.12.3).
+  * Update build-deps and deps with the info from cmake.
+  * use secure copyright format uri.
+
+ -- Sandro Knauß <hefee@debian.org>  Sat, 31 Mar 2018 18:24:39 +0200
+
+kidentitymanagement (17.12.2-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (17.12.2).
+  * Update Vcs links to salsa.
+  * Update build-deps and deps with the info from cmake
+  * Update patch hunks
+  * Enable tests, but make them non-failing.
+  * Update symbols files for 17.12.2.
+  * Bump debhelper build-dep and compat to 11.
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 09 Mar 2018 15:14:22 +0100
+
+kidentitymanagement (17.08.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Properly mark libkf5identitymanagement-dev as Multi-Arch: same.
+    (Closes: #887442)
+  * Simplify watch file, and switch it to https.
+  * Bump Standards-Version to 4.1.3, no changes required.
+
+ -- Pino Toscano <pino@debian.org>  Sat, 20 Jan 2018 10:28:20 +0100
+
+kidentitymanagement (17.08.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (17.08.3).
+  * Get rid of unnessary break/replaces of kde-l10n-(ast|eo).
+  * Bump Standards-Version to 4.1.2 (No changes needed).
+  * Bump debhelper build-dep and compat to 10.
+  * Set l10npkgs_firstversion_ok to 4:16.04.3-9~
+
+ -- Sandro Knauß <hefee@debian.org>  Thu, 21 Dec 2017 17:55:03 +0100
+
+kidentitymanagement (17.08.0-1) experimental; urgency=medium
+
+  * New upstream release (17.08.0)
+  * Bump Standards-Version to 4.0.1.
+  * Update upstream metadata
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files.
+  * Bump group breaks (17.08)
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 01 Sep 2017 22:14:02 +0200
+
+kidentitymanagement (17.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 17 Aug 2017 09:35:27 +0000
+
+kidentitymanagement (17.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 12 Jul 2017 10:21:09 +0000
+
+kidentitymanagement (17.04.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 07 Jun 2017 12:21:55 +0000
+
+kidentitymanagement (17.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 11 May 2017 18:18:26 +0000
+
+kidentitymanagement (17.04.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 19 Apr 2017 13:04:20 +0000
+
+kidentitymanagement (16.12.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Mar 2017 13:48:34 +0000
+
+kidentitymanagement (16.12.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Feb 2017 16:59:46 +0000
+
+kidentitymanagement (16.12.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 11 Jan 2017 13:19:00 +0000
+
+kidentitymanagement (16.12.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 14 Dec 2016 16:27:46 +0000
+
+kidentitymanagement (16.08.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 21 Nov 2016 13:54:26 +0000
+
+kidentitymanagement (16.08.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 14 Oct 2016 13:39:51 +0000
+
+kidentitymanagement (16.08.1-1~1.gbp1d9999) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @1d99999ea75a6ee4d253e7b46af5a58ccd265d42 **
+
+  * Refresh patches
+  * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files.
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 14:11:42 +0200
+
+kidentitymanagement (16.08.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 16 Sep 2016 13:06:48 +0000
+
+kidentitymanagement (16.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 17 Aug 2016 11:48:53 +0000
+
+kidentitymanagement (16.04.2-1) unstable; urgency=medium
+
+  * Add new patch: set_icontheme.diff
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 27 Jun 2016 16:32:00 +0200
+
+kidentitymanagement (16.04.1-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files
+
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer"
+    replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update install files
+  * Drop Xephyr hack
+  * Update testsuite
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 19:23:16 +0200
+
+kidentitymanagement (15.12.0-2) experimental; urgency=medium
+
+  * Update build dependencies to follow the package version instead of
+    the libraries soversions.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 10 Feb 2016 21:27:21 +0100
+
+kidentitymanagement (15.12.0-1) experimental; urgency=medium
+
+  * New upstream release (15.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:24:29 +0100
+
+kidentitymanagement (15.08.1-1) experimental; urgency=medium
+
+  * New upstream release (15.08.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 03:16:26 +0200
+
+kidentitymanagement (15.08.0-1) experimental; urgency=medium
+
+  * Initial Debian release.
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Sep 2015 20:40:43 +0200
+
+kidentitymanagement (15.08.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Wed, 26 Aug 2015 17:26:40 +0100
+
+kidentitymanagement (15.07.90-0ubuntu1) wily; urgency=medium
+
+  [ Harald Sitter ]
+  * Initial release
+
+  [ Jonathan Riddell ]
+  * new upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 09:51:47 +0100

@@ -1,0 +1,5 @@
+usr/lib/*/libKF5IdentityManagement.so.5
+usr/lib/*/libKF5IdentityManagement.so.5.*
+usr/share/locale/
+usr/share/qlogging-categories5/kidentitymanagement.categories
+usr/share/qlogging-categories5/kidentitymanagement.renamecategories
