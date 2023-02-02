@@ -1,3 +1,9 @@
+kidentitymanagement (21.08.1.1-deepin1) unstable; urgency=medium
+
+  * fix lib syntax error
+
+ -- niuzj <niuzj0@gmail.com>  Thu, 02 Feb 2023 13:12:38 +0000
+
 kidentitymanagement (21.08.1-deepin1) unstable; urgency=medium
 
   * Rebuild
